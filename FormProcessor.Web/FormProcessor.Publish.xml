@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="\\testiis\wwwroot\formprocessorqa" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Test" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="False">
+    <file relUrl="bin/FormProcessor.pdb" publishTime="06/24/2011 13:54:38" />
+    <file relUrl="bin/EntityFramework.dll" publishTime="04/28/2011 18:31:04" />
+    <file relUrl="bin/NLog.xml" publishTime="09/07/2009 11:18:18" />
+    <file relUrl="packages.config" publishTime="04/28/2011 18:31:07" />
+    <file relUrl="ExampleForm.html" publishTime="06/23/2011 17:27:57" />
+    <file relUrl="templates/BasicEmail.xslt" publishTime="06/23/2011 18:49:18" />
+    <file relUrl="bin/EntityFramework.xml" publishTime="04/28/2011 18:31:04" />
+    <file relUrl="bin/Common.Logging.dll" publishTime="04/28/2011 18:30:20" />
+    <file relUrl="Web.config" publishTime="06/24/2011 18:01:29" />
+    <file relUrl="gateway.aspx" publishTime="06/23/2011 17:21:31" />
+    <file relUrl="bin/NLog.dll" publishTime="09/07/2009 11:18:18" />
+    <file relUrl="Global.asax" publishTime="05/06/2011 17:55:55" />
+    <file relUrl="bin/FormProcessor.dll" publishTime="06/24/2011 13:54:38" />
+    <file relUrl="bin/Common.Logging.NLog.dll" publishTime="04/28/2011 18:30:35" />
+  </publishProfile>
+  <publishProfile publishUrl="\\bcc.ctc.edu\web\wwwroot\formpro" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Release" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="scripts/supersubs.js" publishTime="07/20/2011 17:20:11" />
+    <file relUrl="lookup.svc" publishTime="07/18/2011 17:12:12" />
+    <file relUrl="Global.asax" publishTime="05/06/2011 17:55:55" />
+    <file relUrl="bin/EntityFramework.xml" publishTime="04/28/2011 18:31:04" />
+    <file relUrl="ExampleForm.html" publishTime="10/05/2011 12:31:58" />
+    <file relUrl="bin/AntiXSSLibrary.dll" publishTime="07/07/2011 16:58:32" />
+    <file relUrl="bin/Common.Logging.dll" publishTime="04/28/2011 18:30:20" />
+    <file relUrl="bin/Common.Logging.NLog.dll" publishTime="04/28/2011 18:30:35" />
+    <file relUrl="bin/HtmlSanitizationLibrary.xml" publishTime="07/07/2011 16:58:33" />
+    <file relUrl="templates/BasicEmail.xslt" publishTime="12/20/2011 11:35:44" />
+    <file relUrl="scripts/uni-form.jquery.js" publishTime="07/20/2011 17:20:11" />
+    <file relUrl="gateway.aspx" publishTime="07/12/2011 12:31:32" />
+    <file relUrl="scripts/Toolkit.js" publishTime="07/20/2011 17:20:12" />
+    <file relUrl="scripts/jquery.tools.tabs-1.0.4.min.js" publishTime="07/20/2011 17:20:11" />
+    <file relUrl="scripts/jquery.tools.tabs.history-1.0.2.min.js" publishTime="07/20/2011 17:20:11" />
+    <file relUrl="scripts/superfish.js" publishTime="07/20/2011 17:20:11" />
+    <file relUrl="scripts/jquery-1.3.2.min.js" publishTime="07/20/2011 17:20:11" />
+    <file relUrl="ThankYou.html" publishTime="07/22/2011 17:02:09" />
+    <file relUrl="bin/FormProcessor.dll" publishTime="12/20/2011 13:35:00" />
+    <file relUrl="bin/AntiXSSLibrary.xml" publishTime="07/07/2011 16:58:32" />
+    <file relUrl="Web.config" publishTime="12/20/2011 13:35:54" />
+    <file relUrl="bin/HtmlSanitizationLibrary.dll" publishTime="07/07/2011 16:58:33" />
+    <file relUrl="bin/EntityFramework.dll" publishTime="04/28/2011 18:31:04" />
+    <file relUrl="bin/FormProcessor.pdb" publishTime="12/20/2011 13:34:59" />
+    <file relUrl="bin/NLog.dll" publishTime="09/07/2009 11:18:18" />
+    <file relUrl="scripts/jquery.hoverIntent.minified.js" publishTime="07/20/2011 17:20:11" />
+    <file relUrl="bin/NLog.xml" publishTime="09/07/2009 11:18:18" />
+  </publishProfile>
+</publishData>

@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FormProcessor.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DefaultSchemaNamespace" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://bellevuecollege.edu/FormDataSchema.xsd</Value>
+    </Setting>
+    <Setting Name="DefaultSchemaFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">FormDataSchema.xsd</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
