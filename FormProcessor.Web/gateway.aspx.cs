@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Threading;
-using System.Web;
 using System.Xml;
 using System.Xml.Schema;
 using System.Xml.Xsl;
@@ -61,6 +59,7 @@ namespace FormProcessor
 		protected void Page_Load(object sender, EventArgs e)
 // ReSharper restore InconsistentNaming
 		{
+			RecordRequest();
 
 			if (Request.Form.Keys != null && Request.Form.Keys.Count > 0)
 			{
@@ -147,6 +146,15 @@ namespace FormProcessor
 				_log.Warn(m => m("Form submitted from URL {0} does not contain any data.", CurrentReferrer));
 				ReturnHttpError(400, "Form does not contain any data.");
 			}
+		}
+
+		#region Private methods
+		/// <summary>
+		/// 
+		/// </summary>
+		private void RecordRequest()
+		{
+			(Application["RequestAttempts"] as IList<RequestAttempt>).Record(Request.UserHostAddress);
 		}
 
 		/// <summary>
@@ -274,12 +282,12 @@ namespace FormProcessor
 			{
 				FormSubmissionEntity formData = new FormSubmissionEntity
 				                                	{
-																						ID = Guid.NewGuid(),
-				                                		FormID = form.Meta.ID,
-				                                		Referrer = form.Meta.Referrer,
-				                                		Datetime = form.Meta.Datetime,
-				                                		ClientIP = form.Meta.ClientIP,
-																						Data = data.InnerXml
+				                                			ID = Guid.NewGuid(),
+				                                			FormID = form.Meta.ID,
+				                                			Referrer = form.Meta.Referrer,
+				                                			Datetime = form.Meta.Datetime,
+				                                			ClientIP = form.Meta.ClientIP,
+				                                			Data = data.InnerXml
 				                                	};
 				db.Forms.Add(formData);
 				db.SaveChanges();
@@ -391,15 +399,16 @@ namespace FormProcessor
 			string statusCodeDesc = string.Concat("HTTP ", statusCode.ToString());
 
 			Response.StatusCode = statusCode;
-		  Response.StatusDescription = statusDescription ?? statusCodeDesc;
+			Response.StatusDescription = statusDescription ?? statusCodeDesc;
 			Response.Write("<html><body>");
 			Response.Write(statusDescription != null ? string.Concat(statusCodeDesc, ": ", statusDescription) : statusCodeDesc);
 			Response.Write("</body></html>");
 			Response.Flush();
 
 			if (endResponse) {
-			  Response.End();
+				Response.End();
 			}
 		}
+			#endregion
 	}
 }

@@ -127,6 +127,7 @@
     <Compile Include="lookup.svc.cs">
       <DependentUpon>lookup.svc</DependentUpon>
     </Compile>
+    <Compile Include="RequestAttempt.cs" />
     <Compile Include="RequiredDataMissingException.cs" />
     <Compile Include="IXmlValidator.cs" />
     <Compile Include="NotificationHelper.cs" />
