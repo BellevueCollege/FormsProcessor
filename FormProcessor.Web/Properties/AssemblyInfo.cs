@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("FormProcessor")]
-[assembly: AssemblyCopyright("Copyright ©  2011")]
+[assembly: AssemblyCopyright("Copyright © Bellevue College 2011")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
