@@ -8,7 +8,9 @@ CREATE TABLE [dbo].[SubmittedForm]
 [Data] [xml] NOT NULL
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-ALTER TABLE [dbo].[SubmittedForm] ADD CONSTRAINT [PK_SubmittedForm_1] PRIMARY KEY CLUSTERED  ([ID]) ON [PRIMARY]
+GRANT INSERT ON  [dbo].[SubmittedForm] TO [WebApplicationUser]
+GRANT UPDATE ON  [dbo].[SubmittedForm] TO [WebApplicationUser]
 GO
-GRANT INSERT ON  [dbo].[SubmittedForm] TO [CAMPUS\webapp-formpro]
+
+ALTER TABLE [dbo].[SubmittedForm] ADD CONSTRAINT [PK_SubmittedForm_1] PRIMARY KEY CLUSTERED  ([ID]) ON [PRIMARY]
 GO
