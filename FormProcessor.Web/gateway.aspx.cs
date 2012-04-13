@@ -111,9 +111,7 @@ namespace FormProcessor
 										_log.Trace(m => m("Sending e-mail..."));
 										if (!SendEmails(formSettings, xmlDoc))
 										{
-											_log.Error(m => m("Failed to send e-mail."));
-											DisplayResult(formSettings, formSettings.Error, recordID);
-											return;	// abort
+											ReturnHttpError(500, "Failed to send e-mail.");
 										}
 										_log.Debug(m => m("E-mail successfully sent"));
 									}

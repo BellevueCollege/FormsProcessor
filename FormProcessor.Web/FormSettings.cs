@@ -179,7 +179,7 @@ namespace FormProcessor.Config
 		Message,
 
 		[XmlEnum("redirect")]
-		Redirect
+		Redirect,
 	}
 
 	public class ResultActionBase
