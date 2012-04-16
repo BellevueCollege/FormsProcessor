@@ -144,7 +144,7 @@ namespace FormProcessor
 			else
 			{
 				_log.Warn(m => m("Form submitted from URL {0} does not contain any data.", CurrentReferrer));
-				ReturnHttpError(400, "Form does not contain any data.");
+				ReturnHttpError(400, "Form does not contain any data.", false);
 			}
 		}
 
