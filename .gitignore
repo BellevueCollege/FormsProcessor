@@ -17,6 +17,7 @@ Thumbs.db
 *.cache
 *.ilk
 *.log
+*.Publish.xml
 [Bb]in
 [Dd]ebug*/
 *.lib
@@ -25,6 +26,7 @@ obj/
 [Rr]elease*/
 _ReSharper*/
 [Tt]est[Rr]esult*
+<<<<<<< HEAD
 [Bb]ackup/*
 UpgradeLog.*
 *.Publish.xml
