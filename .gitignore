@@ -27,6 +27,7 @@ _ReSharper*/
 [Tt]est[Rr]esult*
 [Bb]ackup/*
 UpgradeLog.*
+*.Publish.xml
 
 # ignore all except example .config files
 **/configs/*.config
