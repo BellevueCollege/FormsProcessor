@@ -309,7 +309,7 @@ namespace FormProcessor
 
 			try
 			{
-				return NotificationHelper.SendEmail(settings.Email.To, "Test form processor", formEmail.Replace("&amp;", "&"));	// HACK: to deal w/ encoded URLs
+				return NotificationHelper.SendEmail(settings.Email.To, settings.Email.Subject, formEmail.Replace("&amp;", "&"));	// HACK: to deal w/ encoded URLs
 			}
 			catch (Exception ex)
 			{

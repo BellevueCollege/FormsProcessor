@@ -131,6 +131,12 @@ namespace FormProcessor.Config
 		/// <summary>
 		/// 
 		/// </summary>
+		[XmlAttribute("subject")]
+		public string Subject{get;set;}
+
+		/// <summary>
+		/// 
+		/// </summary>
 		[XmlAttribute("xslTemplateName")]
 		public string TemplateName{get;set;}
 	}
