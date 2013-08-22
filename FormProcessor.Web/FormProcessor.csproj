@@ -190,7 +190,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <CopyToBin Include="forms.config" />
+    <CopyToBin Include="forms.config">
+      <SubType>Designer</SubType>
+    </CopyToBin>
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
