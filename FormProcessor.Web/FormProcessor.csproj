@@ -114,7 +114,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Readme\Elmah.txt" />
+    <None Include="App_Readme\Elmah.txt" />
     <Content Include="gateway.aspx" />
     <Content Include="ExampleForm.html" />
     <Content Include="Global.asax" />
@@ -176,6 +176,8 @@
     <Compile Include="XmlDocumentValidator.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="EXAMPLE-forms.config" />
+    <Content Include="EXAMPLE-ConnectionStrings.config" />
     <None Include="FormDataSchema.xsd">
       <SubType>Designer</SubType>
     </None>
@@ -188,11 +190,6 @@
     <Content Include="Web.QA.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <CopyToBin Include="forms.config">
-      <SubType>Designer</SubType>
-    </CopyToBin>
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
