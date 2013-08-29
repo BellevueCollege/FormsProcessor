@@ -176,8 +176,8 @@
     <Compile Include="XmlDocumentValidator.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="EXAMPLE-forms.config" />
-    <Content Include="EXAMPLE-ConnectionStrings.config" />
+    <Content Include="configs\EXAMPLE-forms.config" />
+    <Content Include="configs\EXAMPLE-ConnectionStrings.config" />
     <None Include="FormDataSchema.xsd">
       <SubType>Designer</SubType>
     </None>
@@ -189,6 +189,7 @@
     </None>
     <Content Include="Web.QA.config">
       <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup />
