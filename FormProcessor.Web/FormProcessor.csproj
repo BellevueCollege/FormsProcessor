@@ -178,6 +178,8 @@
   <ItemGroup>
     <Content Include="configs\EXAMPLE-forms.config" />
     <Content Include="configs\EXAMPLE-ConnectionStrings.config" />
+    <Content Include="configs\EXAMPLE-Authentication.config" />
+    <Content Include="configs\EXAMPLE-ElmahAuthorization.config" />
     <None Include="FormDataSchema.xsd">
       <SubType>Designer</SubType>
     </None>
