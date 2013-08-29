@@ -176,11 +176,11 @@
     <Compile Include="XmlDocumentValidator.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="configs\EXAMPLE-forms.config" />
-    <Content Include="configs\EXAMPLE-ConnectionStrings.config" />
-    <Content Include="configs\EXAMPLE-Authentication.config" />
-    <Content Include="configs\EXAMPLE-ElmahAuthorization.config" />
-    <Content Include="configs\EXAMPLE-EmailSettings.config" />
+    <None Include="configs\EXAMPLE-forms.config" />
+    <None Include="configs\EXAMPLE-ConnectionStrings.config" />
+    <None Include="configs\EXAMPLE-Authentication.config" />
+    <None Include="configs\EXAMPLE-ElmahAuthorization.config" />
+    <None Include="configs\EXAMPLE-EmailSettings.config" />
     <None Include="FormDataSchema.xsd">
       <SubType>Designer</SubType>
     </None>
