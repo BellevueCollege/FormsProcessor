@@ -10,7 +10,7 @@ A 'form mailer' script for **simple** HTML forms, with additional security and V
 * _FormProcessor.sln_ - Visual Studio solution file; opening this will load all projects, etc.
   * `FormProcessor.DB` - Database project, using [Red-Gate Tools' SQL Connect](https://www.red-gate.com/products/sql-development/sql-connect/).
   * `FormProcessor.Web` - ASP.NET Web Forms project.
-    * `configs` - Example configuration files - you will need to create your own in this folder.
+      * `configs` - Example configuration files - you will need to create your own in this folder.
   * `packages` - 3rd-party packages added via [NuGet](https://nuget.codeplex.com/).
 
 ### Requirements
